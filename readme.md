@@ -34,7 +34,7 @@ python question.py
 
 ## Compiled Library Usage (Recommended)
 
-Using a 2x faster compiled CPython library:
+Using the compiled CPython library:
 
 1. Download the repository and make sure you have Python installed in your PATH.
 2. Open the command prompt and run "python" to start Python interactive mode.
