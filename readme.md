@@ -1,4 +1,4 @@
-#The longest substring without any duplicate characters
+# The longest substring without any duplicate characters
 
 This python script find the longest substring without any duplicate characters.
 
@@ -10,7 +10,7 @@ This script is optimized to use less CPU and Memory, using CPython and this repo
 
 Time Complexity: O(n), where n is the length of the input string.
 
-##Examples:
+## Examples:
 
 $ python3 solution.py
 input: ABBCDDEFGHII
@@ -27,12 +27,12 @@ $ python3 solution.py
 input: ABCD
 output: ABCD length: 4
 
-##Default Usage:
+## Default Usage:
 
 1. Download the repository and make sure you have python installed in your PATH.
 2. Run "python question.py" in the project directory then input a string.
 
-##Compiled Library Usage (Recommended)
+## Compiled Library Usage (Recommended)
 
 Using with a 2x faster compiled CPython library: 
 
@@ -43,7 +43,7 @@ Using with a 2x faster compiled CPython library:
 4. Run with an example string:
 >>> execute('ABBCDDEFGHII')
 
-##Benchmarks
+## Benchmarks
 
 With included benchmark script, it is clear that using CPython, optimizes cpu usage more than two times.
 
@@ -55,7 +55,7 @@ Benchmarking Compiled CPython code:
 
 CPython also generates and HTML Annotation File. Python interactions from C code can be seen there.
 
-##Compiling CPython Library
+## Compiling CPython Library
 
 For building with CPython, Visual Cpp Build Tools are required. 
 See: https://visualstudio.microsoft.com/visual-cpp-build-tools/
@@ -67,7 +67,7 @@ See: https://visualstudio.microsoft.com/visual-cpp-build-tools/
 3. Benchmarking and comparing results. (benchmark.cmd)
 4. Running Unit Tests. (test.cmd)
 
-##Unit Test Results
+## Unit Test Results
 
 "test.cmd" script can be executed to perform unit tests.
 
